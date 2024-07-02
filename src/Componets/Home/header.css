@@ -1,0 +1,112 @@
+header {
+    background: url(../../imges/3.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+header h2 {
+    color: #4C1E28;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 60px;
+    width: 80%;
+}
+header .text {
+    margin: 11% 40px;
+}
+header p {
+    color: #555555;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 0 13px;
+    width: 70%;
+}
+header button.btn1{
+    background-color: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 40px;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+header button.btn1:hover {
+    background-color: #fff;
+    color: #a82d49;
+    border: 3px solid #a82d49;
+}
+header button.btn2{
+    background-color: #fff;
+    color: black;
+    border: 3px solid #fff;    ;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 40px;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+header button.btn2:hover {
+    color: #a82d49;
+    border: 3px solid #a82d49;
+}
+
+
+
+@media (max-width: 1000px) {
+    header h2 {
+        font-size: 39px;
+        font-weight: bold;
+        line-height: 50px;
+        width: 100%;
+    }
+    header p {
+        font-size: 18px;
+        width: 100%;
+    }
+    header button.btn1{
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        padding: 7px 30px;
+    }
+    header button.btn2{
+        padding: 7px 29px;
+    }
+}
+
+@media (max-width: 770px) {
+    .container {
+        max-width: 100% !important;
+    }
+    header h2 {
+        font-size: 30px;
+        width: 60% !important;
+    }
+    header p {
+        font-size: 15px;
+        width: 50%;
+    }
+    header button.btn1{
+        display: block;
+    }
+}
+@media (max-width: 500px) {
+    header h2 {
+        font-size: 25px;
+        width: 100% !important;
+        line-height: 35px;
+    }
+    header button.btn1{
+        padding: 5px 15px;
+    }
+    header button.btn2{
+        padding: 5px 15px;
+    }
+}
